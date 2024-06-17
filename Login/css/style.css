@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ecf0f1;
+}
+.content{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 960px;
+    height: 60%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+
+}
+.content::before{
+    content: "" ;
+    position: absolute;
+    background-color:#9370DB ;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    left: 0;
+}
+
+.first-content{
+    display: flex;
+}
+
+.first-content .second-content{
+    z-index: 12;
+}
+.title{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-primary{
+    color: #fff;
+
+}
+.title-second{
+    color:#9370DB;
+}
+.description{
+    font-size: 14px;
+    font-weight: 300;
+    
+    line-height: 30px;
+}
+.description-primary{
+    color: #fff;
+}
+
+.description-second{
+    color: #7f8c8d;
+}
+.first-column{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    z-index: 10;
+}
+
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 50px;
+    font-weight: bold;
+    width: 200px;
+    align-self: center;
+    border-width: 0px;
+    margin-top: 1rem;
+}
+
+.btn-primary{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: background-color 0.5s;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #9370DB;
+
+}
+
+.btn-second{
+    background-color: #9370DB;
+    border: 1px solid #9370DB;
+    transition: background-color 0.5s;
+}
+
+.btn-second:hover{
+    background-color: #fff;
+    border: 1px solid #9370DB;
+    color: #9370DB;
+}
+.second-column{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.second-content{
+    position: absolute;
+    display: flex;
+}
+
+.second-content .first-column{
+    order: 2;
+    z-index: -1;
+}
+
+.second-content .second-column{
+    order: 1;
+    z-index: -1;
+}
+
+.list-social-midia{
+    display: flex;
+    list-style-type: none;
+}
+
+.social-midia{
+    margin: 1rem 0;
+}
+
+.item-social-midia{
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin: 5px;
+    color: #95a5a6;
+    transition: background-color 0.5s;
+}
+
+.item-social-midia:hover{
+    background-color:#9370DB;
+    color: #fff;
+    border-color: #9370DB;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 55%; 
+}
+
+.form input{
+    height: 45px;
+    width: 85%;
+    border: none;
+    background-color: #ecf0f1;
+    margin: 3px;
+    padding: 8px;
+}
+
+.lable-input{
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    margin-top: 10px;
+}
+
+.icon-modify{
+    color: #7f8c7f;
+    padding: 0 5px;
+}
+
+.password{
+    color:#39495e;
+    font-size: 14px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.password::first-letter{
+    text-transform: capitalize;
+}
+
+.entrar-js .first-content .first-column,
+.entrar-js .first-content .second-column{
+    z-index: -1;
+}
+.entrar-js .second-content .first-column,
+.entrar-js .second-content .second-column{
+    z-index: 12;
+}
+
+.entrar-js .content::before{
+    left: 50%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.inscrever-js .second-content .first-column,
+.inscrever-js .second-content .second-column{
+    z-index: -1;
+}
+
+.inscrever-js .first-content .first-column,
+.inscrever-js .first-content .second-column{
+    z-index: 12;
+}
+
+.inscrever-js .content::before{
+    left: 0;
+}
