@@ -5,7 +5,7 @@ const books = [
         author: "Autor 1",
         category: "Categoria 1",
         publicationDate: "01/01/2023",
-        image: "assets/images/book1.jpg",
+        image: "assets/images/book1.png",
         link: "livro1.html"
     },
     {
@@ -14,7 +14,7 @@ const books = [
         author: "Autor 2",
         category: "Categoria 2",
         publicationDate: "01/02/2023",
-        image: "assets/images/book2.jpg",
+        image: "assets/images/book2.png",
         link: "livro2.html"
     },
     {
@@ -23,7 +23,7 @@ const books = [
         author: "Autor 3",
         category: "Categoria 3",
         publicationDate: "01/03/2023",
-        image: "assets/images/book3.jpg",
+        image: "assets/images/book3.png",
         link: "livro3.html"
     },
     {
@@ -32,7 +32,7 @@ const books = [
         author: "Autor 4",
         category: "Categoria 4",
         publicationDate: "01/04/2025",
-        image: "assets/images/book4.jpg",
+        image: "assets/images/book4.png",
         link: "livro4.html"
     },
     {
@@ -41,7 +41,7 @@ const books = [
         author: "Autor 5",
         category: "Categoria 5",
         publicationDate: "01/05/2023",
-        image: "assets/images/book5.jpg",
+        image: "assets/images/book5.png",
         link: "livro5.html"
     },
     {
@@ -50,7 +50,7 @@ const books = [
         author: "Autor 6",
         category: "Categoria 6",
         publicationDate: "01/06/2023",
-        image: "assets/images/book6.jpg",
+        image: "assets/images/book6.png",
         link: "livro6.html"
     }
 ];
