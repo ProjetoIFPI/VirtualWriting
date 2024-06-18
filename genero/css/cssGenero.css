@@ -97,3 +97,10 @@
     font-size: .8rem;
     font-family: 'Courier New', Courier, monospace;
 }
+.navbar-brand {
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
