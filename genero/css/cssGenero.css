@@ -1,3 +1,54 @@
+/* ESTILOS DA NAVBAR */
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-secondary {
+    background-color: #9370DB;
+    border: none;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+    background-color: #6959CD;
+}
+
+.btn-secondary .bi {
+    color: white;
+    font-size: 1.5em;
+}
+
+.dropdown-menu {
+    background-color: #9370DB;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #7a5ebc;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -0.125rem;
+}
+
 /*TELA DE GÊNEROS*/
 .bodi{
     display: flex;
@@ -97,10 +148,4 @@
     font-size: .8rem;
     font-family: 'Courier New', Courier, monospace;
 }
-.navbar-brand {
-    color: white;
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center;
-}
+
