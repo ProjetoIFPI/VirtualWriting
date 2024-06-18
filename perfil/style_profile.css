@@ -336,7 +336,7 @@
      padding-left: 70px;
  }
 
- ul {
+ #ul-master {
      list-style-type: none;
      display: flex;
      position: relative;
@@ -346,7 +346,7 @@
      padding-top: 40px;
  }
 
- ul li {
+ #ul-master li {
      width: 55px;
      height: 55px;
      background-color: rgb(237, 231, 231);
@@ -359,21 +359,21 @@
      transition: .2s;
  }
 
- ul li div {
+ #ul-master li div {
      position: absolute;
  }
 
- ul li:hover {
+ #ul-master li:hover {
      width: 180px;
  }
 
- ul li .icon {
+ #ul-master li .icon {
      color: #C0C0C0;
      font-size: 30px;
      transition: .2s;
  }
 
- ul li .text {
+ #ul-master li .text {
      color: white;
      font-size: 15px;
      transform: scale(0);
@@ -384,11 +384,11 @@
      transform: scale(1)
  }
 
- ul li:hover .icon {
+ #ul-master li:hover .icon {
      transform: scale(0);
  }
 
- ul li::before {
+ #ul-master li::before {
      content: '';
      position: absolute;
      background-image: linear-gradient(45deg, var(--cor1), var(--cor2));
@@ -397,7 +397,7 @@
      border-radius: 50px;
  }
 
- ul li:hover::before {
+ #ul-master li:hover::before {
      opacity: 1;
  }
 
