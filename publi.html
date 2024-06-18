@@ -107,23 +107,7 @@
                         <label for="synopsis" class="sinopse-publi">Sinopse da Obra:</label><br>
                         <textarea id="synopsis" name="synopsis" rows="9" class="textarea-sinopse"></textarea><br>
                     
-                        <input type="submit" id="myInput" value="Enviar" class="input-alert">
-                        <div id="myModal" class="modal-alert">
-                            <div class="modal-content">
-                                <p>Escrita Publicada!</p>
-                                <button class="close-btn" id="closeBtn">OK</button>
-                            </div>
-                        </div>
-                    
-                        <script>
-                            document.getElementById("myInput").addEventListener("focus", function() {
-                                document.getElementById("myModal").style.display = "flex";
-                            });
-                    
-                            document.getElementById("closeBtn").addEventListener("click", function() {
-                                document.getElementById("myModal").style.display = "none";
-                            });
-                        </script>                 
+                        <button class="button-enviar"> Enviar</button>                  
 
                     </form>
                 </div>
