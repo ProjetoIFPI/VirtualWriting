@@ -48,7 +48,7 @@
                 <a href="profile.html" class="btn btn-secondary"><i class="bi bi-person-square"></i></a>
             </div>
             <div class="mx-auto">
-                <a class="navbar-brand" href="#">Virtual Writing</a>
+                <a class="navbar-brand" href="index.html">Virtual Writing</a>
             </div>
             <div>
                 <a href="#" class="btn btn-secondary"><i class="bi bi-sunset-fill"></i></a>
@@ -88,27 +88,43 @@
                     <p>Informações da Escrita</p>
                 </div>
                 <div>
-                    <form action="/submit-form" method="post">
+                    <form action="#" method="post">
                         <label for="title" class="titulo-publi">Título da Obra:</label><br>
                         <input type="text" id="title" name="title" class="input-title"><br>
 
-                        
                         <label for="authorName" class="escritor-publi">Escritor(a):</label><br>
                         <input type="text" id="authorName" name="authorName" class="input-escritor"><br>
-                        
+
                         <label for="publisher" class="editora-publi">Editora:</label><br>
                         <input type="text" id="publisher" name="publisher" class="input-editora"><br>
-                        
+
                         <label for="hashtags" class="hashtags-publi">Hashtags:</label><br>
                         <input type="text" id="hashtags" name="hashtags" class="input-hashtags"><br>
-                        
+
                         <label for="coverImage" class="img-publi">Imagem de Capa:</label><br>
                         <input type="file" id="coverImage" name="coverImage" class="input-img"><br>
 
                         <label for="synopsis" class="sinopse-publi">Sinopse da Obra:</label><br>
                         <textarea id="synopsis" name="synopsis" rows="9" class="textarea-sinopse"></textarea><br>
+                    
+                        <input type="submit" id="myInput" value="Enviar" class="input-alert">
+                        <div id="myModal" class="modal-alert">
+                            <div class="modal-content">
+                                <p>Escrita Publicada!</p>
+                                <button class="close-btn" id="closeBtn">OK</button>
+                            </div>
+                        </div>
+                    
+                        <script>
+                            document.getElementById("myInput").addEventListener("focus", function() {
+                                document.getElementById("myModal").style.display = "flex";
+                            });
+                    
+                            document.getElementById("closeBtn").addEventListener("click", function() {
+                                document.getElementById("myModal").style.display = "none";
+                            });
+                        </script>                 
 
-                        <input type="submit" value="Enviar" class="button-enviar">
                     </form>
                 </div>
             </div>
