@@ -75,7 +75,7 @@
     align-items: center;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
     margin: 8px;
-    border-radius: 10px;
+    -radius: 10px;
     width: 45%;
     padding: 20px;
 }
@@ -94,8 +94,8 @@
 }
 
 .botao {
-    border-radius: 0;
-    border: 0;
+    -radius: 0;
+    : 0;
     background-color: #9370DB;
 }
 
@@ -143,7 +143,7 @@
 .input-img,
 .input-title {
     margin: 5px 0;
-    border-radius: 5px;
+    -radius: 5px;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -151,14 +151,14 @@
 }
 
 .button-enviar{
-    box-sizing: border-box;
+    box-sizing: -box;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 15px;
     background-color: #7a5ebc;
     width: 150px;
-    border-color: #f5f0ff;;
+    border-color: #f5f0ff;
     box-shadow: none;
     padding: 6px;
     border-radius: 8px;
