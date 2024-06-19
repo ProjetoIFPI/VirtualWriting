@@ -67,7 +67,7 @@
     width: 100%;
     margin: 0.75rem 1.5rem 0.75rem 1.5rem;
     height: 21.875rem;
-    background-color: rgb(230, 230, 230);
+    background-color: #f5f0ff;
     border: 0.063rem solid rgb(200, 200, 200);
     border-radius: 0.625rem;
     overflow: hidden;
@@ -128,7 +128,7 @@
     width: 100%;
     margin: 0.75rem 1.5rem 0.75rem 1.5rem;
     height: 15rem;
-    background-color: rgb(230, 230, 230);
+    background-color: #f5f0ff;
     border: 0.063rem solid rgb(200, 200, 200);
     border-radius: 0.625rem;
     overflow: hidden;
@@ -191,8 +191,8 @@
     width: 100%;
     margin: 0.75rem 1.5rem 0.75rem 1.5rem;
     height: 16.5rem;
-    padding: 1rem;
-    background-color: rgb(230, 230, 230);
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #f5f0ff;
     border: 0.063rem solid rgb(200, 200, 200);
     border-radius: 0.625rem;
     overflow: hidden;
