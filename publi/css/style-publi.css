@@ -77,7 +77,7 @@
 
 .lado-esquerdo,
 .lado-direito {
-    background-color: #d6cde7;
+    background-color: #9370DB;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,7 +90,7 @@
 }
 
 .format-titulo {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight: bold;
     margin: 3px 0;
@@ -102,38 +102,40 @@
     height: auto;
 }
 
-.botao {
-    border-radius: 0;
-    border: 0;
-    background-color: #d6cde7;
-}
-
 .format-text-arq {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-weight: bold;
     text-align: center;
     margin-top: 5px;
+    color: white;
 }
 
 #fileDisplayArea {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
+    color: white;
+}
+.title-escrita{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
 }
 
-.title-escrita,
 .titulo-publi,
 .img-publi,
 .escritor-publi,
 .editora-publi,
 .hashtags-publi,
 .sinopse-publi {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
+    color: white;
 }
 
 .textarea-sinopse,
@@ -145,15 +147,15 @@
     margin: 5px 0;
     border-radius: 5px;
     padding: 5px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    color: white;
 }
-
 
 .button-enviar{
     box-sizing: border-box;
     color: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
     font-size: 15px;
     background-color: #7a5ebc;
     width: 150px;
@@ -161,4 +163,5 @@
     box-shadow: none;
     padding: 6px;
     border-radius: 8px;
+    color: white;
 }
