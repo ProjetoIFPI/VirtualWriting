@@ -83,7 +83,7 @@
  }
 
  .lado-esquerdo {
-     background-color: #d6cde7;
+     background-color: #9370DB; 
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -96,7 +96,7 @@
  }
 
  .lado-direito {
-     background-color: #d6cde7;
+     background-color: #9370DB;
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -181,16 +181,18 @@
 
  .format-nome-perfil {
      text-align: center;
-     font-family: 'Courier New', Courier, monospace;
+     font-family: Arial, Helvetica, sans-serif;
      font-size: 20px;
      font-weight: bold;
+     color: white;
  }
 
  .format-arroba {
-     font-family: 'Courier New', Courier, monospace;
+     font-family: Arial, Helvetica, sans-serif;
      font-size: 17px;
      color: rgba(0, 0, 0, 0.616);
      margin: -17px 0px 0px 0px;
+     color: white;
 
  }
 
@@ -203,27 +205,30 @@
      margin: 10px 11px 10px 11px;
      padding: 3px 10px 3px 10px;
      text-align: justify;
-     font-family: 'Courier New', Courier, monospace;
+     font-family: Arial, Helvetica, sans-serif;
      font-size: 16px;
+     color: white;
  }
 
  h3 {
      font-weight: bold;
-     font-family: 'Courier New', Courier, monospace;
+     font-family: Arial, Helvetica, sans-serif;
      font-size: 23px;
+     color: white;
  }
 
  .format-hashtag {
-     color: #3660b3;
+     color: #002e8a;
      font-family: 'Courier New', Courier, monospace;
      font-size: 16px;
      font-weight: bold;
  }
 
  .format-titulo {
-     font-family: 'Courier New', Courier, monospace;
+     font-family: Arial, Helvetica, sans-serif;
      font-size: 27px;
      font-weight: bold;
+     color: white;
  }
 
  /* CSS das boxes de informações */
@@ -260,11 +265,11 @@
      margin: 10px 0px 1px 0px;
      font-size: 1.5em;
      font-weight: bold;
-     font-family: 'Courier New', Courier, monospace;
+     font-family: Arial, Helvetica, sans-serif;
  }
 
  .infor-descritor {
-     font-family: 'Courier New', Courier, monospace;
+     font-family: Arial, Helvetica, sans-serif;
      font-size: 16px;
      text-align: justify;
      margin: 0px 0px 2px 0px;
@@ -272,14 +277,14 @@
 
  .infor-author {
      margin: 0px 2px 3px 0px;
-     font-family: 'Courier New', Courier, monospace;
+     font-family: Arial, Helvetica, sans-serif;
      font-size: 15px;
      font-weight: bold;
  }
 
  .infor-publisher {
      margin: 0px 2px 3px 0px;
-     font-family: 'Courier New', Courier, monospace;
+     font-family: Arial, Helvetica, sans-serif;
      font-size: 15px;
      font-weight: bold;
  }
@@ -380,7 +385,7 @@
      transition-delay: .1s;
  }
 
- ul li:hover .text {
+ #ul-master li:hover .text {
      transform: scale(1)
  }
 
