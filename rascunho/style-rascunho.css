@@ -55,16 +55,6 @@
 
 /*STYLES DA SECTION LIVROS RECENTES*/
 
-.sectionCfg {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 0.75em 1.5em;
-    height: 220px;
-    background-color: red;
-    border: 1px solid #09ff00;
-}
-
 .mainSettings {
     display: flex;
     flex-direction: column;
